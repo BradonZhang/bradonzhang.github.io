@@ -1,3 +1,8 @@
 body {
-    font-family: Comic Sans MS, sans-serif;
+    font-family: Georgia, serif;
+    background-color: rgb(240, 240, 240);
+    color: rgb(16, 16, 16);
+}
+h2 {
+    text-align: center;
 }
