@@ -1,0 +1,34 @@
+body {
+  font-family: "Open Sans", Arial, Helvetica, sans-serif;
+  margin: 0px;
+}
+.title {
+  text-align: center;
+}
+#cookie-message {
+  position: absolute;
+  bottom: 0px;
+  background-color: green;
+  color: white;
+  width: 100%;
+  padding: 16px 16px;
+  box-sizing: border-box;
+  display: flex;
+  justify-content: space-between;
+}
+#cookie-message-button {
+  font-size: larger;
+  cursor: pointer;
+  /* float: right; */
+  background-color: lime;
+  padding: 0px 8px;
+  border-radius: 4px;
+  box-shadow: none;
+  border: solid black 1px;
+}
+#cookie-message-button:hover {
+  background-color: #00EE00;
+}
+#cookie-message-button:active {
+  background-color: #00CC00;
+}

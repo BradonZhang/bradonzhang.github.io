@@ -1,1 +1,29 @@
-
+<!DOCTYPE html>
+<html lang='en'>
+  <head>
+    <meta charset='UTF-8' />
+    <title>SiteForm Penny Tracker</title>
+    <link rel='stylesheet' type='text/css' href='./index.css'>
+    <script type='text/javascript' src='./index.js'></script>
+  </head>
+  <body onload='initPage()'>
+    <h2 class='title'>SiteForm Penny Tracker</h2>
+    <p>Pennies that Siddha will never get back: <strong id='numPenniesDisplay'></strong></p>
+    <div id='pennyDisplay'></div>
+    <button onclick='clockIn()'><!--disabled='getCookie("clockInTime").length > 0'>-->
+      Clock In
+    </button>
+    <button onclick='clockOut()'><!--disabled='getCookie("clockInTime").length === 0'>-->
+      Clock Out
+    </button>
+    <button onclick='resetPennies()'>
+      Reset Pennies
+    </button>
+    <div id='cookie-message' valign='center'>
+      lmao this site uses cookies. Deal with it.
+      <button id='cookie-message-button' onclick='acceptCookies()'>
+        OK
+      </button>
+    </div>
+  </body>
+</html>
