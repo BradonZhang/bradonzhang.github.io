@@ -6,7 +6,7 @@ body {
   text-align: center;
 }
 #cookie-message {
-  position: absolute;
+  position: fixed;
   bottom: 0px;
   background-color: green;
   color: white;
